@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  basae: "/Painting-Services/",
+  base: "/Painting-Services/",
   plugins: [react(), tailwindcss()],
 });
