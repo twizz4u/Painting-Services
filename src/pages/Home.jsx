@@ -3,7 +3,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 //import styles from "./style.module.css"; // Import your CSS module
-import Contacts from "../components/contacts";
+import Contacts from "../components/Contacts";
 import Testimonial from "../components/Testimonial";
 import Blog from "../components/Blog";
 import Statistics from "../components/Statistics";
