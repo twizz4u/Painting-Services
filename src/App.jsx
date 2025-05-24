@@ -7,7 +7,7 @@ import Service from "./pages/Service";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/Painting-Services",
       element: <Main />,
       errorElement: <h3>Error</h3>,
       children: [
@@ -17,12 +17,12 @@ function App() {
           errorElement: <h3>Error</h3>,
         },
         {
-          path: "portfolio",
+          path: "/Painting-Services/portfolio",
           element: <Portfolio />,
           errorElement: <h3>Error</h3>,
         },
         {
-          path: "service/:id",
+          path: "/Painting-Services/service/:id",
           element: <Service />,
           errorElement: <h3>Error</h3>,
         },
